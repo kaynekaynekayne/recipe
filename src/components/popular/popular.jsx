@@ -44,7 +44,7 @@ const Popular = () =>{
                     arrows:false,
                     pagination:false,
                     drag:'free',
-                    gap:'5rem'
+                    gap:'2rem'
                 }}>
                     {popular.map(recipe=>
                         <SplideSlide key={recipe.id}>
@@ -84,7 +84,7 @@ const Card=styled.div`
         position:absolute;
         z-index:10;
         left:50%;
-        bottom:0%;
+        bottom:5%;
         transform:translate(-50%,0%);
         color:white;
         width:100%;
