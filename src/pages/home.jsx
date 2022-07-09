@@ -1,5 +1,5 @@
-import Veggie from "../components/veggie/veggie";
-import Popular from "../components/popular/popular";
+import Veggie from "../components/veggie";
+import Popular from "../components/popular";
 
 import React from 'react';
 
